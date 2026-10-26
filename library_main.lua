@@ -12,7 +12,7 @@ local TweenService = cloneref(game:GetService('TweenService'));
 
 local RenderStepped = RunService.RenderStepped;
 local LocalPlayer = Players.LocalPlayer;
-local Mouse = LocalPlayer:GetMouse();
+local Mouse = cloneref(LocalPlayer:GetMouse());
 
 local ScreenGui = Instance.new('ScreenGui');
 
